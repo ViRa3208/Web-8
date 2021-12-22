@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
                             alert("We received your submission, thank you!");
 
                         } else {
+                            form.reset();
                             alert("An error occured: " + response.message);
                         }
                     }
