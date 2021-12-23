@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     }
                 });
             });
-        } if(a>0) {
+        } if(error>0) {
             alert('Error');
         }
 
