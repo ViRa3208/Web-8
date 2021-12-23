@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let error = formValidate(form);
         let formData = new FormData(form);
 
-        if (error == 0) {
+        if (error === 0) {
             $("#forma").submit(function (e) {
                 e.preventDefault();
                 var href = $(this).attr("action");
