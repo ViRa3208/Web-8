@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     success: function (response) {
                         if (response.status == "success") {
                             form.reset();
-                            alert("your ticket accept");
+                            alert("We received your submission, thank you!");
 
                         } else {
                             alert("An error occured: " + response.message);
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 });
             });
         } else {
-            alert('Error');
+            alert('Fill the fields!');
         }
 
     }
