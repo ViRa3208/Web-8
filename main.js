@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
         let error = formValidate(form);
         let formData = new FormData(form);
 
-        if (error === 0) {
+        if (error == 0) {
             $("#forma").submit(function (e) {
                 e.preventDefault();
                 var href = $(this).attr("action");
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     success: function (response) {
                         if (response.status == "success") {
                             form.reset();
-                            alert("We received your submission, thank you!");
+                            alert("your ticket accept");
 
                         } else {
                             form.reset();
@@ -31,8 +31,8 @@ document.addEventListener('DOMContentLoaded', function () {
                     }
                 });
             });
-        } else {
-            alert('Fill the fields!');
+        } if(a>0) {
+            alert('Error');
         }
 
     }
