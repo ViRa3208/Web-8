@@ -25,13 +25,12 @@ document.addEventListener('DOMContentLoaded', function () {
                             alert("your ticket accept");
 
                         } else {
-                            form.reset();
                             alert("An error occured: " + response.message);
                         }
                     }
                 });
             });
-        } if(error>0) {
+        } else {
             alert('Error');
         }
 
@@ -77,3 +76,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 });
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
