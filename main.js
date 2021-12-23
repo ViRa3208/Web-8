@@ -76,7 +76,3 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
 });
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
